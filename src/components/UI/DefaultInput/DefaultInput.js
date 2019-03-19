@@ -1,14 +1,14 @@
-import React from 'react';
-import {TextInput, StyleSheet} from 'react-native';
+import React from "react";
+import { TextInput, StyleSheet } from "react-native";
 
 const defaultInput = props => (
-	<TextInput 
-		
-		underlineColorAndroid="transparent" 
-		{...props} 
-		style={[styles.input, props.style]} />
-
+  <TextInput
+    underlineColorAndroid="transparent"
+    {...props}
+    style={[styles.input, props.style]}
+  />
 );
+
 const styles = StyleSheet.create({
   input: {
     width: "100%",
