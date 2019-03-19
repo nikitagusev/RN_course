@@ -6,7 +6,8 @@ import {
   Text,
   Button,
   StyleSheet,
-  TouchableOpacity
+  TouchableOpacity,
+  Platform
 } from "react-native";
 
 import Icon from "react-native-vector-icons/Ionicons";
@@ -33,7 +34,7 @@ const placeDetail = props => {
         <View>
           <TouchableOpacity onPress={props.onItemDeleted}>
             <View style={styles.deleteButton}>
-              <Icon size={30} name="ios-trash" color="red" />
+              <Icon size={30} name="md-log-out" color="blue" />
             </View>
           </TouchableOpacity>
           <Button title="Close" onPress={props.onModalClosed} />
