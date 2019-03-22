@@ -34,7 +34,7 @@ const placeDetail = props => {
         <View>
           <TouchableOpacity onPress={props.onItemDeleted}>
             <View style={styles.deleteButton}>
-              <Icon size={50} name="md-log-out" color="red" />
+              <Icon size={50} name="md-log-out" color="blue" />
             </View>
           </TouchableOpacity>
           <Button title="Close" onPress={props.onModalClosed} />
